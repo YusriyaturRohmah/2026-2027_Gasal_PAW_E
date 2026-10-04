@@ -1,0 +1,18 @@
+<!-- ini non-embedded script -->
+<?php
+echo "Hello world";
+
+?>
+
+<!-- ini embedded script -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PHP</title>
+</head>
+<body>
+	<p><?php echo "Hello world"; ?></p>
+</body>
+</html>
