@@ -1,0 +1,6 @@
+<?php require 'auth.php'; wajib_login(); include 'header.php'; ?>
+<div class="jumbotron">
+  <h2>Selamat datang, <?= htmlspecialchars($_SESSION['nama']) ?>!</h2>
+  <p>Anda login sebagai <b><?= $_SESSION['level'] === 1 ? 'Owner' : 'Kasir' ?></b>.</p>
+</div>
+<?php include 'footer.php'; ?>
